@@ -1,0 +1,9 @@
+.abobrinha{
+    height: 80px;
+}
+
+.col{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+}
