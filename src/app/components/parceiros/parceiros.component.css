@@ -1,18 +1,17 @@
 .header-padding{
-    height: 80px;
+    height: 13vh;
+    background-color: rgba(36, 166, 92, 0.83)
+    
 }
-.header2-padding{
-    height: 70px;
-    background-color: #24a65c;
-}
-.ecolhido
+
+.escolhido
 {
     width: 125px;
     height: 60px;
     background-color: rgba(24, 115, 63,1);
     position: relative;
-    top: 10px;
-    left: 19.7vw;
+    top: 6.6vh;
+    left: 82.3vw;
     border-top-left-radius: 17px;
     border-top-right-radius: 17px;
 

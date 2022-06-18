@@ -1,0 +1,21 @@
+.footer{
+    height: 12vh;
+    background-color: rgba(35, 39, 46,0.37);
+}
+
+.redes-sociais{
+    width: 20vw;
+}
+.list-group-item
+{
+    background-color: rgba(255, 255, 255, 0);
+    color: white;
+    height: 30px;
+}
+.redes{
+
+}
+.col{
+    display: flex;
+    align-items: center;
+}
