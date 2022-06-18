@@ -9,6 +9,8 @@ import { HomeComponent } from './components/home/home.component';
 import { Header2Component } from './template/header2/header2.component';
 import { SobreComponent } from './components/sobre/sobre.component';
 import { PostosDeColetaComponent } from './components/postos-de-coleta/postos-de-coleta.component';
+import { ParceirosComponent } from './components/parceiros/parceiros.component';
+import { PontosComponent } from './components/pontos/pontos.component';
 
 @NgModule({
   declarations: [
@@ -18,7 +20,9 @@ import { PostosDeColetaComponent } from './components/postos-de-coleta/postos-de
     HomeComponent,
     Header2Component,
     SobreComponent,
-    PostosDeColetaComponent
+    PostosDeColetaComponent,
+    ParceirosComponent,
+    PontosComponent
   ],
   imports: [
     BrowserModule,
