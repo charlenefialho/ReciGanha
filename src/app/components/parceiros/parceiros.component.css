@@ -1,3 +1,8 @@
+@font-face {
+    font-family: Roboto;
+    src: url("src/assets/Fonts/Roboto-Bold.ttf") format('truetype');
+}
+
 .header-padding{
     height: 13vh;
     background-color: rgba(36, 166, 92, 0.83)
@@ -15,4 +20,77 @@
     border-top-left-radius: 17px;
     border-top-right-radius: 17px;
 
+}
+
+#Bem-Vindo{
+    color: white;
+    font-family: Roboto;
+    font-size: 90px;
+    padding-left: 50px;
+}
+#row{
+    background-image: url(https://blog.ipog.edu.br/wp-content/uploads/2017/12/Gestão-Ambiental-920x368.jpg);
+    background-size: cover;
+    height: 55vh;
+    background-position: 0px;
+    align-items: center;
+}
+.Acesso{
+    height: 47vh;
+    position: relative;
+    left: 15vw;
+    padding-top: 35px;
+    padding-left: 110px;
+    width: 500px;
+    background-color: rgba(89, 174, 51,0.51);
+    border: 15px solid;
+    border-color: rgba(0, 0, 0, 0.50);
+    border-top-left-radius: 250px;
+    border-bottom-right-radius: 250px;
+}
+
+.input{
+    width: 270px;
+    color: white;
+    background-color: rgba(0, 0, 0, 0.40);
+    margin: 7px;
+    border: none;
+}
+.input::placeholder{
+    color: rgba(255, 255, 255, 0.7);
+    text-shadow: 2px;
+}
+
+.acessar{
+    width: 100px;
+    height: 40px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    position: relative;
+    left: 160px;
+}
+
+
+button{
+    background-color: #f2b035;
+}
+
+a { color: inherit; }
+
+.lastLine{
+    height: 18.2vh;
+    width: 100vw;
+    background-color: #f2b035;
+}
+#lastrow{
+    padding-left: 10vw;
+    width: 90vw;
+    display: flex;
+    justify-content: space-between;
+}
+
+.logos{
+    width: 80px;
+    height: 80px;
+    background-color: white;
 }
