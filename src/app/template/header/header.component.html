@@ -1,47 +1,97 @@
-<div class="header fixed-top">
-    <div class="row" id="row1" style="height: 50px;">
-        <div class="col">
-            <!--<a logo>-->
+<nav class="navbar navbar-expand-lg navbar-light bg-light ">
+    <a class="navbar-brand" href="#">Navbar</a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+    <div class="collapse navbar-collapse justify-content-center" id="navbarNav">
+        <ul class="navbar-nav align-items-center">
+            <li class="nav-item active">
+                <a class="nav-link " [routerLink]="[ '/'] " routerLinkActive="router-link-active ">HOME</a>
+            </li>
+            <li class="nav-item active">
+                <a class="nav-link " [routerLink]="[ '/sobre'] " routerLinkActive="router-link-active ">SOBRE</a>
+            </li>
+            <li class="nav-item active">
+                <a class="nav-link " [routerLink]="[ '/postos-de-coleta'] " routerLinkActive="router-link-active ">POSTOS DE COLETA</a>
+            </li>
+            <li class="nav-item active">
+                <a class="nav-link " [routerLink]="[ '/parceiros'] " routerLinkActive="router-link-active ">PARCEIROS</a>
+            </li>
+            <li class="nav-item active">
+                <a class="nav-link " [routerLink]="[ '/pontos'] " routerLinkActive="router-link-active ">CONSULTAR PONTOS</a>
+            </li>
+        </ul>
+    </div>
+    <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+        <ul class="navbar-nav align-items-center">
+            <li class="nav-item active">
+                <a href="#">FAÇA A SUA DOAÇÃO</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link " href="# "><button type="button " class="btn bg-secondary text-white rounded-pill ">CADASTRE-SE</button></a>
+            </li>
+        </ul>
+    </div>
+</nav>
+
+<!--
+<div class="header stickl ">
+    <div class="row justify-content-end align-items-center ">
+        <div class="col-md-auto ">
+            <a href="# " style="color: #f5f5f5; ">FAÇA A SUA DOAÇÃO</a>
         </div>
-        <div class="col-md-7">
-            
-        </div>
-        <div class="col">
-            <a href="#" style="color: #f5f5f5;">FAÇA A SUA DOAÇÃO</a>
-        </div>
-        <div class="col">
-            <a class="nav-link" href="#"><button type="button" class="btn bg-secondary text-white rounded-pill">CADASTRE-SE</button></a>
+        <div class="col-md-auto ">
+            <a class="nav-link " href="# "><button type="button " class="btn bg-secondary text-white rounded-pill ">CADASTRE-SE</button></a>
         </div>
     </div>
-
-    <div class="row">
-        <div class="col">
-            <a class="nav-link" [routerLink]="['/']" routerLinkActive="router-link-active">HOME</a>
-        
-            <a class="nav-link" [routerLink]="['/sobre']" routerLinkActive="router-link-active">SOBRE</a>
-        
-            <a class="nav-link" [routerLink]="['/postos-de-coleta']" routerLinkActive="router-link-active">POSTOS DE COLETA</a>
-        
-            <a class="nav-link" [routerLink]="['/parceiros']" routerLinkActive="router-link-active">PARCEIROS</a>
-        
-            <a class="nav-link" [routerLink]="['/pontos']" routerLinkActive="router-link-active">CONSULTAR PONTOS</a>
+    <div class="row ">
+        <div class="col ">
+            <a class="nav-link " [routerLink]="[ '/'] " routerLinkActive="router-link-active ">HOME</a>
+        </div>
+        <div class="col ">
+            <a class="nav-link " [routerLink]="[ '/sobre'] " routerLinkActive="router-link-active ">SOBRE</a>
+        </div>
+        <div class="col ">
+            <a class="nav-link " [routerLink]="[ '/postos-de-coleta'] " routerLinkActive="router-link-active ">POSTOS DE COLETA</a>
+        </div>
+        <div class="col ">
+            <a class="nav-link " [routerLink]="[ '/parceiros'] " routerLinkActive="router-link-active ">PARCEIROS</a>
+        </div>
+        <div class="col ">
+            <a class="nav-link " [routerLink]="[ '/pontos'] " routerLinkActive="router-link-active ">CONSULTAR PONTOS</a>
         </div>
     </div>
 </div>
 
 <!--
-<nav class="navbar navbar-dark bg-orange fixed-top mb-2">
-    
-    <ul class="nav justify-content-end">
-        <li class="nav-item">
-            <a href="#" class="nav-link text-secondary">FAÇA A SUA DOAÇÃO</a>
-        </li>
-        <li class="nav-item">
-        <a class="nav-link" href="#"><button type="button" class="btn btn-success rounded-pill">CADASTRE-SE</button></a>
-        </li>
-        
-    </ul>
-</nav>
+<div class="header fixed-top ">
+    <div class="row " id="row1 " style="height: 50px; ">
+        <div class="col ">
+
+        </div>
+        <div class="col-md-7 ">
+
+        </div>
+        <div class="col ">
+            <a href="# " style="color: #f5f5f5; ">FAÇA A SUA DOAÇÃO</a>
+        </div>
+        <div class="col ">
+            <a class="nav-link " href="# "><button type="button " class="btn bg-secondary text-white rounded-pill ">CADASTRE-SE</button></a>
+        </div>
+    </div>
+
+    <div class="row ">
+        <div class="col ">
+            <a class="nav-link " [routerLink]="[ '/'] " routerLinkActive="router-link-active ">HOME</a>
+
+            <a class="nav-link " [routerLink]="[ '/sobre'] " routerLinkActive="router-link-active ">SOBRE</a>
+
+            <a class="nav-link " [routerLink]="[ '/postos-de-coleta'] " routerLinkActive="router-link-active ">POSTOS DE COLETA</a>
+
+            <a class="nav-link " [routerLink]="[ '/parceiros'] " routerLinkActive="router-link-active ">PARCEIROS</a>
+
+            <a class="nav-link " [routerLink]="[ '/pontos'] " routerLinkActive="router-link-active ">CONSULTAR PONTOS</a>
+        </div>
+    </div>
+</div>
 -->
-
-
