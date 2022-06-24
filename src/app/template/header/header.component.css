@@ -2,7 +2,10 @@ a {
     color: inherit;
 }
 
-.header {
-    height: 13vh;
-    background-color: rgba(36, 166, 92, 0.25)
+.navbar {
+    background-color: rgba(89, 174, 51, 0.60);
+}
+
+#teste{
+    color: white;
 }

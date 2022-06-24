@@ -1,40 +1,26 @@
-.filtro{
-    width: 100%;
+.container-fluid{
+    width: 100vw;
     height: 100vh;
-    background-color: rgba(0, 0, 0, 0.5)
-}
-
-.filtro2{
-    width: 100%;
-    height: 230px;
-    position: relative;
-    top: 547px;
-    background-color: rgba(36, 166, 92, 0.25)
-}
-
-.divhome{
-    width: 100%;
-    height: 100vh;
+    background: rgba(0, 0, 0, 0.3) url("src/assets/ImageHome.jpeg");
     background-size: cover;
-    background-image: url("src/assets/ImageHome.jpeg");
+    background-blend-mode: darken;
+    
 }
 
-.textbox{
+.cen{
+  height: 40vh;
+}
+
+#textbox{
     background-color: rgba(0, 0, 0, 0.5);
-    width: 35vw;
-    height: 20vh;
+    border-radius: 25px;
     text-align: center;
     font-family: Arial, Helvetica, sans-serif;
-    font-size: 28px;
     color: white;
-    border-radius: 25px;
-
-    position: relative;
-    top: 40%;
-    float: right;
-    right: 3vw;
+    padding-top: 4vh;
+    padding-bottom: 4vh;
+    min-height: 18vh;    
 }
-
 #text{
     padding-top: 3.5vh;
 }
