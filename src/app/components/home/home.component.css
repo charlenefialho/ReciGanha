@@ -10,6 +10,9 @@
 .cen{
   height: 40vh;
 }
+.sla{
+   height: 30vh;
+}
 
 #textbox{
     background-color: rgba(0, 0, 0, 0.5);
@@ -19,7 +22,8 @@
     color: white;
     padding-top: 4vh;
     padding-bottom: 4vh;
-    min-height: 18vh;    
+    min-height: 18vh;
+    max-height: 30vh;    
 }
 #text{
     padding-top: 3.5vh;
