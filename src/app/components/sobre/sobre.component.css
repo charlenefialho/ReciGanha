@@ -3,52 +3,38 @@
     src: url("src/assets/Fonts/Roboto-Medium.ttf") format('truetype');
 }
 
-.sobrePage{
-    background-image: url("src/assets/ImageSobre.jpg");
+.container-fluid{
+    background: rgba(0, 0, 0, 0.45) url("src/assets/ImageSobre.jpg");
     height: 100vh;
     width: 100vw;
     background-size: cover;
-}
-.filtroImage{
-    width: 100%;
-    height: 100vh;
-    background-color: rgba(0, 0, 0, 0.5)
+    background-blend-mode: darken;
 }
 
-.header-padding{
-    height: 13vh;
-    
+#row1{
+    height: 25vh;
 }
 
-.escolhido
-{
-    width: 80px;
-    height: 60px;
-    background-color: rgba(24, 115, 63,0.50);
-    position: relative;
-    top: 6.6vh;
-    left: 67.35vw;
-    border-top-left-radius: 17px;
-    border-top-right-radius: 17px;
-
+#row2{
+    max-height: 30vh;
+}
+#row3{
+    max-height: 30vh;
 }
 
-.textbox{
-    height: 30vh;
+
+
+#textbox{
     background-color: rgba(0, 0, 0, 0.1);
-    width: 50vw;
-    position: absolute;
-    top: 30vh;
-    left: 3vw;
     font-family: Roboto;
     font-size: 23px;
     color: white;
     border-radius: 30px;
     padding: 10px;
-
+    max-height: 30vh;
 }
 
-p{
+span{
     font-family: Roboto;
     color: white;
 }
@@ -57,21 +43,22 @@ p{
     color: #f2b035;
 }
 
-.row{
-    display: flex;
-    justify-content: space-between;
-    position: relative;
-    height: 30vh;
-    width: 90vw;
-    top: 55vh;
-    left: 9vw;
-
-}
 .textbox2{
-    width: 390px;
-    height: 240px;
+    margin-top: 5vh;
+    min-width: 400px;
+    max-height: 16,66666666666667vh;
     background-color: rgba(89, 174, 51,0.3);
     border-end-end-radius: 190px;
     padding: 12px;
-    font-size: 17px;
+    font-size: auto;
 }
+
+/*
+    width: 23vw;
+    min-width: 400px;
+    height: 16,66666666666667vh;
+    background-color: rgba(89, 174, 51,0.3);
+    border-end-end-radius: 190px;
+    padding: 12px;
+    font-size: auto;
+*/
