@@ -3,24 +3,14 @@
     src: url("src/assets/Fonts/Roboto-Medium.ttf") format('truetype');
 }
 
-.header-padding{
-    height: 13vh;
-    background-color: rgba(36, 166, 92, 0.83)
-    
+.container{
+    padding-top: 18vh;
 }
 
-.escolhido
-{
-    width: 192px;
-    height: 60px;
-    background-color: rgba(24, 115, 63,1);
-    position: relative;
-    top: 6.6vh;
-    left: 72vw;
-    border-top-left-radius: 17px;
-    border-top-right-radius: 17px;
-
+.col{
+    height: 66vh;
 }
+
 h1{
     font-family: Roboto;
     font-size: 500;
@@ -44,7 +34,7 @@ label{
     right: 400px;
 }
 
-.input{
+.input-cep{
     border: none;
     background-color: #9bce84;
     border-bottom-right-radius: 40px;
@@ -53,22 +43,22 @@ label{
     padding-left: 100px;
     
 }
-.col{
-    display: flex;
-    align-items: center;
 
+.checkboxGroup{
+    background-color: #66b443;
+    width: max-content;
+    padding: 10px;
+    border-color: #59ae33;
+    border-radius: 20px;
 }
 
 .maps{
     border-radius: 70px;
-    position: relative;
-    top: 10vh;
 }
 
 .button{
     background-color: #59ae33;
     width: 200px;
     height: 50px;
-    position: relative;
-    left: 80px;
+    margin-left: 6vw;
 }
