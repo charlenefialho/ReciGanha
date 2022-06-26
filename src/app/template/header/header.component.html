@@ -18,6 +18,9 @@
                 <a class="nav-link text-white " [routerLink]="[ '/parceiros'] " routerLinkActive="router-link-active">PARCEIROS</a>
             </li>
             <li class="nav-item active">
+                <a class="nav-link text-white " [routerLink]="[ '/parceiros'] " routerLinkActive="router-link-active">NOTICIAS</a>
+            </li>
+            <li class="nav-item active">
                 <a class="nav-link text-white " [routerLink]="[ '/pontos'] " routerLinkActive="router-link-active">CONSULTAR PONTOS</a>
             </li>
         </ul>
@@ -28,7 +31,7 @@
                 <a href="#">FAÇA A SUA DOAÇÃO</a>
             </li>
             <li class="nav-item">
-                <a class="nav-link " href="# "><button type="button " class="btn bg-secondary text-white rounded-pill ">CADASTRE-SE</button></a>
+                <a class="nav-link " [routerLink]="[ '/cadastre-se'] " routerLinkActive="router-link-active"><button type="button " class="btn bg-secondary text-white rounded-pill ">CADASTRE-SE</button></a>
             </li>
         </ul>
     </div>

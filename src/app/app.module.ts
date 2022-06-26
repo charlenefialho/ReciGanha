@@ -11,6 +11,7 @@ import { SobreComponent } from './components/sobre/sobre.component';
 import { PostosDeColetaComponent } from './components/postos-de-coleta/postos-de-coleta.component';
 import { ParceirosComponent } from './components/parceiros/parceiros.component';
 import { PontosComponent } from './components/pontos/pontos.component';
+import { CadastroComponent } from './components/cadastro/cadastro.component';
 
 @NgModule({
   declarations: [
@@ -22,7 +23,8 @@ import { PontosComponent } from './components/pontos/pontos.component';
     SobreComponent,
     PostosDeColetaComponent,
     ParceirosComponent,
-    PontosComponent
+    PontosComponent,
+    CadastroComponent
   ],
   imports: [
     BrowserModule,
