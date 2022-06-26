@@ -13,6 +13,7 @@ import { ParceirosComponent } from './components/parceiros/parceiros.component';
 import { PontosComponent } from './components/pontos/pontos.component';
 import { CadastroComponent } from './components/cadastro/cadastro.component';
 import { LoginComponent } from './components/login/login.component';
+import { NoticiasComponent } from './components/noticias/noticias.component';
 
 @NgModule({
   declarations: [
@@ -26,7 +27,8 @@ import { LoginComponent } from './components/login/login.component';
     ParceirosComponent,
     PontosComponent,
     CadastroComponent,
-    LoginComponent
+    LoginComponent,
+    NoticiasComponent
   ],
   imports: [
     BrowserModule,
