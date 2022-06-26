@@ -12,6 +12,7 @@ import { PostosDeColetaComponent } from './components/postos-de-coleta/postos-de
 import { ParceirosComponent } from './components/parceiros/parceiros.component';
 import { PontosComponent } from './components/pontos/pontos.component';
 import { CadastroComponent } from './components/cadastro/cadastro.component';
+import { LoginComponent } from './components/login/login.component';
 
 @NgModule({
   declarations: [
@@ -24,7 +25,8 @@ import { CadastroComponent } from './components/cadastro/cadastro.component';
     PostosDeColetaComponent,
     ParceirosComponent,
     PontosComponent,
-    CadastroComponent
+    CadastroComponent,
+    LoginComponent
   ],
   imports: [
     BrowserModule,
