@@ -9,15 +9,15 @@
 }
 
 .card{
-    width: 22vw;
+    width: 400px;
     height: fit-content;
     margin: 15px;
     border: none;
 }
 
 .image{
-    width: 20vw;
-    height: 30vh;
+    width: 380px;
+    height: 280px;
 }
 
 .imagesVideo{
