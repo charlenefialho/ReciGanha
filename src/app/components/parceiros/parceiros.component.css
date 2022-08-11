@@ -1,12 +1,12 @@
 @font-face {
     font-family: Roboto;
-    src: url("src/assets/Fonts/Roboto-Bold.ttf") format('truetype');
+    src: url("src/assets/Fonts/Roboto-Regular.ttf") format('truetype');
 }
 
 .header-padding{
     height: 13vh;
     background-color: rgba(36, 166, 92, 0.83)
-    
+
 }
 
 .escolhido
