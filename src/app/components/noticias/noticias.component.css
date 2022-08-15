@@ -1,0 +1,49 @@
+.notices{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.space-bet{
+    height: 10vh;
+    width: 100vw;
+}
+
+.card{
+    width: 400px;
+    height: fit-content;
+    margin: 15px;
+    border: none;
+}
+
+.image{
+    width: 380px;
+    height: 280px;
+}
+
+.imagesVideo{
+    height: 20vh;
+    width: 10vw;
+}
+
+.card-vid{
+    padding-top: 5vh;
+}
+
+.vejaMais{
+    padding: 5px 50px 5px 50px;
+    border-radius: 20px;
+    border-bottom-right-radius: 0%;
+    margin-left: 5vw;
+}
+
+.darkBox{
+    background-color: rgba(0,0,0,0.82);
+    height: fit-content;
+}
+
+.CardVidBut{
+    margin-left: 8vw; 
+    margin-top: 30px; 
+    margin-bottom: 30px;
+    padding: 5px 30px 5px 30px;
+}

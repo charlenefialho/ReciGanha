@@ -1,10 +1,56 @@
-<div class="header-padding">
-    <div class="escolhido"></div>
+<div class="container-fluid">
+    <div class="row row1">
+        <div class="col-lg-6 col-md-6">
+            <h1 id="Bem-Vindo">Bem-Vindo ao novo espaço Parceiros de Negócios</h1>
+        </div>
+        <div class="col-lg-4 offset-lg-2 col-md-6 offset-md-0">
+            <div class="Acesso">
+                <h1>Acesso ao Portal</h1>
+                <div>
+                    <input class="input" type="text" placeholder="Usuario">
+                    <input class="input" type="password" placeholder="Senha">
+
+                    <a class="nav-link" href="#"><button type="button" class="acessar btn text-white rounded-pill">Acessar</button></a>
+                </div>
+                <a class="text-white text-shadow" >Esqueceu a senha?</a>
+                <br>
+                <span class="text-white text-shadow">Ainda não tem cadastro?</span>
+                <a [routerLink]="[ '/cadastre-se'] " routerLinkActive="router-link-active" style="color: #f2b035; text-shadow: 10px;">Clique aqui</a>
+            </div>
+        </div>
+    </div>
+
+    <div class="row row2 lastLine" id="contato">
+        <dt class="col-sm-4">Central de serviços:</dt>
+        <dt class="col-sm-4">Atendimento:</dt>
+        <dt class="col-sm-4">Local:</dt>
+    
+        <dd class="col-sm-4">Barbara Calculo e Suporte Tecnico</dd>
+        <dd class="col-sm-4">
+            <p>Segunda a Sexta das 8hr ás 20hr</p>
+            <p>Sábado (Exeto feriados) 8h ás 18hr</p>
+        </dd>
+        <dd class="col-sm-4">Região Metropolitana São Paulo</dd>
+    </div>
+
+
+    <div class="row row3 lastLine">
+        <div class="col"><img class="logos" src="https://shoppingtaboao.com.br/lojas_files/20075.jpg" alt="Burger King"></div>
+        <div class="col"><img class="logos" src="https://monitormercantil.com.br/wp-content/uploads/2022/04/c-a-2-logo.png" alt="C & A"></div>
+        <div class="col"><img class="logos" src="https://t.ctcdn.com.br/qXwtRBLxazzWMH1v94ZL_CcWF6M=/400x400/smart/filters:format(webp)/i490141.jpeg" alt="Carrefour"></div>
+        <div class="col"><img class="logos" src="https://www.apmentor.org/wp-content/uploads/2018/04/logo-abmen.png" alt="Abmen"></div>
+        <div class="col"><img class="logos" src="https://s3-sa-east-1.amazonaws.com/projetos-artes/fullsize%2F2011%2F08%2F17%2F10%2FWDL-Logo-5614_11252_040944897_1556549958.jpg" alt="EspaçoEletro"></div>
+        <div class="col"><img class="logos" src="https://cf.shopee.com.br/file/e799e17faeea26c71ccd35ea788a1f00" alt="Feito Lar"></div>
+    </div>
+        
+
 </div>
 
+<app-footer></app-footer>
+<!--
 <div class="row" id="row">
     <div class="col">
-        <h1 id="Bem-Vindo">Bem-Vindo ao novo espaço Parceiros de Negócios</h1>
+        
     </div>
     <div class="col">
         <div class="Acesso">
@@ -23,29 +69,49 @@
     </div>
 </div>
 
-<div class="lastLine">
-    <div class="row">
-        <div class="col">
-            <h4>Central de serviços</h4>
-            <span>Comunicar: Barbara Calculo e Suporte Tecnico</span>
-        </div>
-        <div class="col">
-            <h4>AtendimentoÇ Segunda a Sexta das 8hr ás 20hr</h4>
-            <h4>Sábado (Exeto feriados) 8h ás 18hr</h4>
-        </div>
-        <div class="col">
-            <h4>Região Metropolitana São Paulo</h4>
-        </div>
-    </div>
+-->
 
-    <div id="lastrow" class="row">
-        <img class="logos" src="https://shoppingtaboao.com.br/lojas_files/20075.jpg" alt="Burger King">
-        <img class="logos" src="https://monitormercantil.com.br/wp-content/uploads/2022/04/c-a-2-logo.png" alt="C & A">
-        <img class="logos" src="https://t.ctcdn.com.br/qXwtRBLxazzWMH1v94ZL_CcWF6M=/400x400/smart/filters:format(webp)/i490141.jpeg" alt="Carrefour">
-        <img class="logos" src="https://www.apmentor.org/wp-content/uploads/2018/04/logo-abmen.png" alt="Abmen">
-        <img class="logos" src="https://s3-sa-east-1.amazonaws.com/projetos-artes/fullsize%2F2011%2F08%2F17%2F10%2FWDL-Logo-5614_11252_040944897_1556549958.jpg" alt="EspaçoEletro">
-        <img class="logos" src="https://cf.shopee.com.br/file/e799e17faeea26c71ccd35ea788a1f00" alt="Feito Lar">
+
+
+<!--
+<div class="lastLine">
+    <div class="row" id="contato">
+            <dt class="col-sm-4">Central de serviços:</dt>
+            <dt class="col-sm-4">Atendimento:</dt>
+            <dt class="col-sm-4">Local:</dt>
+        
+            <dd class="col-sm-4">Barbara Calculo e Suporte Tecnico</dd>
+            <dd class="col-sm-4">
+                <p>Segunda a Sexta das 8hr ás 20hr</p>
+                <p>Sábado (Exeto feriados) 8h ás 18hr</p>
+            </dd>
+            <dd class="col-sm-4">Região Metropolitana São Paulo</dd>
     </div>
 </div>
+-->
 
-<app-footer></app-footer>
+
+<!--
+    <div class="row" id="contato">
+            <div class="col">
+                <h4>Central de serviços</h4>
+                <span>Comunicar: Barbara Calculo e Suporte Tecnico</span>
+            </div>
+            <div class="col">
+                <h4>Atendimento: Segunda a Sexta das 8hr ás 20hr</h4>
+                <h4>Sábado (Exeto feriados) 8h ás 18hr</h4>
+            </div>
+            <div class="col">
+                <h4>Região Metropolitana São Paulo</h4>
+            </div>
+        </div>
+
+        <div id="lastrow" class="row">
+            <img class="logos" src="https://shoppingtaboao.com.br/lojas_files/20075.jpg" alt="Burger King">
+            <img class="logos" src="https://monitormercantil.com.br/wp-content/uploads/2022/04/c-a-2-logo.png" alt="C & A">
+            <img class="logos" src="https://t.ctcdn.com.br/qXwtRBLxazzWMH1v94ZL_CcWF6M=/400x400/smart/filters:format(webp)/i490141.jpeg" alt="Carrefour">
+            <img class="logos" src="https://www.apmentor.org/wp-content/uploads/2018/04/logo-abmen.png" alt="Abmen">
+            <img class="logos" src="https://s3-sa-east-1.amazonaws.com/projetos-artes/fullsize%2F2011%2F08%2F17%2F10%2FWDL-Logo-5614_11252_040944897_1556549958.jpg" alt="EspaçoEletro">
+            <img class="logos" src="https://cf.shopee.com.br/file/e799e17faeea26c71ccd35ea788a1f00" alt="Feito Lar">
+        </div>
+-->

@@ -1,5 +1,79 @@
-<div class="header-padding">
-    <div class="escolhido"></div>
-</div>
+<div class="container-fluid">
+    <div class="row main-row align-items-center">
+        <div class="col-lg-4 col-left">
+            <h2>COMO FUNCIONA?</h2>
 
-<p>pontos works!</p>
+            <div class="row second-row align-items-center">
+                
+                <div class="col-2">
+                    <!--ICONE-->
+                    <img class="icon" [src]="icon1" alt="">
+                </div>
+                <div class="col-10">
+                    <!--TEXTO-->
+                    <h5>FAÇA O SEU LOGIN</h5>
+                    <span>Cadastre-se grátis e ganhe $3 bónus de incrição.</span>
+                </div>
+            </div>
+
+            <div class="row second-row align-items-center">
+                <div class="col-2">
+                    <!--ICONE-->
+                    <img class="icon" [src]="icon2" alt="">
+                </div>
+                <div class="col-10">
+                    <!--TEXTO-->
+                    <h5>GANHE CONOSCO</h5>
+                    <span>Ganhe ponto reciclando materias reciclaveis.</span>
+                </div>
+            </div>
+
+            <div class="row second-row align-items-center">
+                <div class="col-2">
+                    <!--ICONE-->
+                    <img class="icon" [src]="icon3" alt="">
+                </div>
+                <div class="col-10">
+                    <!--TEXTO-->
+                    <h5>CONSULTE OS SEUS PONTOS</h5>
+                    <span>Troque os seus pontos arecardados 
+                        por descontos em supermercados,
+                        shopping,farmacias etc.</span>
+                </div>
+            </div>
+
+        </div><!--FIM DA COLUNA-->
+
+        <div class="col-lg-4">
+            <div class="loginBox">
+
+                <!--LOGO-->
+                <img class="logo" [src]="logo" alt="">
+
+                <div class="input">
+                    <span class="loginSpan">Email</span>
+                    <input type="text" placeholder="999.999.999-99">
+                </div>
+
+                <div class="input">
+                    <span class="loginSpan">Senha</span>
+                    <input type="password" placeholder="************">
+                </div>
+
+                <a class="nav-link" href="#"><button type="button" class="entrar btn text-white rounded-pill">Entrar</button></a>
+                <a [routerLink]="[ '/cadastre-se'] " routerLinkActive="router-link-active" style="width: 100%; text-align:center;">Cadastre-se</a>
+
+            </div><!--FIM DA LOGINBOX-->
+        </div><!--FIM DA COLUNA-->
+
+        <div class="col-lg-4 col-right">
+
+            <!--IMAGEM DA PREVIA DE CONSULTA-->
+            <img class="imgPrev" [src]="imgPrev" alt="Previa da tela de Consulta">
+
+            <span style="color: #F2B035; font-size:large"><strong>Transfira seus pontos ReciGanha para programas parceiros!</strong></span> <br>
+            <span>Transfira seus pontos para outros programas e tenhas descontos que cabem no seu bolso! Ter pontos da ReciGanhe é saber  economizar nas suas compras.</span>
+
+        </div><!--FIM DA COLUNA-->
+    </div><!--FIM DA LINHA-->
+</div><!--FIM DO CONTAINER-FLUID-->

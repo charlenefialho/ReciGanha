@@ -7,6 +7,11 @@ import { Component, OnInit } from '@angular/core';
 })
 export class PostosDeColetaComponent implements OnInit {
 
+  showImage: boolean = false;
+
+  search(){
+    this.showImage = true;
+  }
   constructor() { }
 
   ngOnInit(): void {
