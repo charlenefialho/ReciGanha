@@ -1,0 +1,65 @@
+<div class="container-fluid">
+    <div class="row justify-content-md-center">
+        <div class="space-bet"></div>
+        <div class="col-lg-9 col-sm-12 notices">
+            <div *ngFor="let item of notices" class="card">
+                <img [src]="item.Image" class="card-img-top image" alt="...">
+                <div class="card-body">
+                    <h5 class="card-title">{{item.Titulo}}</h5>
+                    <p class="card-text">{{item.Data}}</p>
+                    <p class="card-text">{{item.Descricao}}</p>
+                    <a href="/noticias" class="btn vejaMais text-white btn-warning"><strong>Veja Mais</strong></a>
+                </div>
+            </div><!--FIM DO CARD-->
+
+        </div><!--FIM COLUNA-->
+
+        <div class="col-lg-3 col-sm-12">
+            <div class="darkBox">
+                <h1 class="text-white" style="width: 100%; text-align: center;">VIDEOS EDUCATIVOS</h1>
+                
+                <div class="card-vid text-white">
+                    <div class="row">
+                        <div class="col-6">
+                            <img class="imagesVideo" src="assets\Noticias\Videos\Vid1.jpeg" alt="">
+                        </div>
+                        <div class="col-6">
+                            <h3>Reciclagem Educacional 2022</h3>
+                        </div>
+                    </div>
+                    <span>Quer sabre mais sobre o Método reciclagem Educacional?</span>
+                    <br> 
+                    <span>vem com a gente, tenha a preparação completa.</span>
+
+                </div>
+
+                <div class="card-vid text-white">
+                    <div class="row">
+                        <div class="col-6">
+                            <img class="imagesVideo" src="assets\Noticias\Videos\Vid2.jpeg" alt="">
+                        </div>
+                        <div class="col-6">
+                            <h3></h3>
+                        </div>
+                    </div>
+                    
+                    <span>Vídeos Educativos para Crianças onde orienta o que podemos fazer com o nosso lixo, ensina a reciclar do jeito certo.</span>
+                </div>
+
+                <div class="card-vid text-white">
+                    <div class="row">
+                        <div class="col-6">
+                            <img class="imagesVideo" src="assets\Noticias\Videos\Vid3.jpeg" alt="">
+                        </div>
+                        <div class="col-6">
+                            <h3></h3>
+                        </div>
+                    </div>
+                    <span>como fazer um robô de caixa de leite -brinquedo reciclável</span>
+
+                </div>
+                <a href="/noticias" class="btn CardVidBut text-white btn-success badge-pill"><strong>Veja Mais</strong></a>
+            </div><!--FIM DARKBOX-->
+        </div><!--FIM DA COLUNA-->
+    </div><!--FIM ROW-->
+</div><!--FIM CONTAINER-FLUID-->
